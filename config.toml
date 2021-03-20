@@ -1,0 +1,86 @@
+baseURL = "http://localhost:8080"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Website of Dennis Riemenschneider"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+# Syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[params]
+title = "Dennis Riemenschneider"
+author = "Dennis Riemenschneider"
+#copyright = "2020-2021"
+#description = "-Description-"
+profilePicture = "images/profile.jpg"
+keywords = ""
+#favicon = "favicons/favicon.ico"
+# example ["css/custom.css"]
+customCss = []
+# example ["js/custom.js"]
+customJs = [] 
+mainSections = []
+#images = ["images/site-feature-image.png"]
+doNotLoadAnimations = false
+# Form Spree Contact Form
+#contactFormAction = "https://formspree.io/f/your-form-hash-here"
+# Google Site Verify
+#googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+# indexDateFormat = "Mon, Jan 2, 2006"
+# listDateFormat = "Jan 2"
+# singleDateFormat = "Mon, Jan 2, 2006"
+# Commento Comments
+# CommentoURL = "https://commento.example.com/js/commento.js"
+displayMode = "dark"
+
+[params.simpleAnalytics]
+# enable = true
+# customurl = "https://analytics.example.com"
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[params.socialIcons]]
+icon = "fab fa-medium"
+title = "Medium"
+url = "https://dennis-riemenschneider.medium.com/"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/300481/"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/dennis-riemenschneider/"
+
+[[params.socialIcons]]
+icon = "fab fa-xing"
+title = "Xing"
+url = "https://www.xing.com/profile/Dennis_Riemenschneider6/cv"
+
+## Menu items
+
+#[menu]
+
+#  [[menu.main]]
+#  name = "About"
+#  identifier = "about"
+#  weight = 100
+#  url = "/"
