@@ -1,0 +1,27 @@
+kind: Ingress
+apiVersion: networking.k8s.io/v1
+metadata:
+  name: 300481-tk
+  namespace: 300481-tk
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/enable-modsecurity: 'true'
+    nginx.ingress.kubernetes.io/enable-owasp-core-rules: 'true'
+spec:
+  tls:
+    - hosts:
+        - 300481.tk
+      secretName: 300481-tk-tls
+  rules:
+    - host: 300481.tk
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: service-300481-tk
+                port:
+                  number: 80
+

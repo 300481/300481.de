@@ -1,0 +1,15 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: service-300481-tk
+  namespace: 300481-tk
+  labels:
+    app: 300481-tk
+spec:
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  selector:
+    app: 300481-tk
+  type: ClusterIP
