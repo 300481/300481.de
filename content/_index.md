@@ -13,4 +13,4 @@ My passion is to develop and implement IT systems that are as automated as possi
 
 The tools I use are the current state of the art.
 
-This is my "game" while others play games.
+This is my favorite "game".
