@@ -9,4 +9,8 @@ author = "Dennis Riemenschneider"
 
 Hi, my name is Dennis and I like doing a lot of things with computers.
 
-My passion is to develop IT systems that are as automated as possible.
+My passion is to develop and implement IT systems that are as automated as possible.
+
+The tools I use are the current state of the art.
+
+This is my "game" while others play games.
