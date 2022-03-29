@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: 300481-de
-          image: 'ghcr.io/300481/300481.de:v0.0.4'
+          image: 'ghcr.io/300481/300481.de:v0.1.0'
           resources:
             requests:
               memory: "4Mi"
