@@ -1,23 +1,23 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  name: 300481-tk
-  namespace: 300481-tk
+  name: 300481-de
+  namespace: 300481-de
   labels:
-    app: 300481-tk
+    app: 300481-de
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: 300481-tk
+      app: 300481-de
   template:
     metadata:
       labels:
-        app: 300481-tk
+        app: 300481-de
     spec:
       containers:
-        - name: 300481-tk
-          image: 'ghcr.io/300481/300481.tk:v0.0.4'
+        - name: 300481-de
+          image: 'ghcr.io/300481/300481.de:v0.0.4'
           resources:
             requests:
               memory: "4Mi"
